@@ -1,7 +1,6 @@
 /*
     整数と浮動小数点数を書式化して表示
 */
-
 #include <stdio.h>
 
 int main(void)
