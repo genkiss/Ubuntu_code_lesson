@@ -1,0 +1,22 @@
+/*
+    読み込んだ数値は奇数か？
+*/
+
+#include <stdio.h>
+
+int main(void)
+{
+        int no;
+
+        printf("整数を入力してください : ");
+        scanf("%d", &no);
+
+        if (no % 2)
+        {
+            puts("その整数は奇数です。");
+        }
+
+        return 0;
+
+}
+    
